@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta http-equiv="Access-Control-Allow-Methods" content="GET, POST, OPTIONS">
+    <meta http-equiv="Access-Control-Allow-Headers" content="Content-Type, Authorization">
+    <title>李世杰的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="logo">李世杰</div>
+        <div class="nav-links">
+            <a href="#home">首页</a>
+            <a href="#about">关于我</a>
+            <a href="#education">教育背景</a>
+            <a href="#projects">项目经历</a>
+            <a href="#contact">联系方式</a>
+        </div>
+    </nav>
+
+    <!-- 首屏区域 -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="profile-section">
+                <div class="profile-info">
+                    <h1>李世杰</h1>
+                    <p>嵌入式系统工程师 | 软件开发者 | 技术爱好者</p>
+                    <div class="basic-info">
+                        <div class="info-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span>2003-05-15</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>1971147649@qq.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>15848114359</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-photo">
+                    <img src="img/证件照.jpg" alt="个人证件照" class="id-photo">
+                </div>
+            </div>
+            <button class="cta-button">了解更多</button>
+        </div>
+    </section>
+
+    <!-- 个人简介区域 -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名专注于嵌入式系统开发的工程师，拥有丰富的项目经验和扎实的技术基础。在蓝桥杯和嵌入式芯片与系统设计竞赛中获得了优异成绩，并获得了工业和信息化人才岗位能力认证。</p>
+
+                    <h3>自我评价</h3>
+                    <ul class="evaluation-list">
+                        <li>做事认真仔细，勤奋务实</li>
+                        <li>有较强的适应能力和协调能力</li>
+                        <li>责任感强，有团队合作精神</li>
+                        <li>助人为乐，有较好人际关系</li>
+                        <li>能恪守以大局为重的原则</li>
+                        <li>能很好地完成任务，善于沟通</li>
+                    </ul>
+
+                    <h3>技能证书</h3>
+                    <ul class="certificates-list">
+                        <li>普通话证书二级甲等</li>
+                        <li>工业互联网平台开发工程师</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教育背景 -->
+    <section class="education-section" id="education">
+        <div class="container">
+            <h2>教育背景</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-header">
+                        <h3>内蒙古大学创业学院</h3>
+                        <span class="education-period">2021.09 - 2025.07</span>
+                    </div>
+                    <p class="education-major">计算机科学与技术</p>
+                    <p class="education-courses">主修课程：数据结构、操作系统、计算机网络、计算机组成原理等</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 荣誉奖项 -->
+    <section class="awards-section">
+        <div class="container">
+            <h2>荣誉奖项</h2>
+            <div class="awards-content">
+                <div class="awards-list">
+                    <div class="award-item">
+                        <span class="award-date">2024年10月</span>
+                        <p class="award-title">内蒙古大学创业学院信息工程学院 2023-2024 学年科技创新活动 二等奖</p>
+                    </div>
+                    <div class="award-item">
+                        <span class="award-date">2024年8月</span>
+                        <p class="award-title">第十五届蓝桥杯全国软件和信息技术专业人才大赛内蒙古赛区 三等奖</p>
+                    </div>
+                    <div class="award-item">
+                        <span class="award-date">2023年8月</span>
+                        <p class="award-title">第六届全国大学生嵌入式芯片与系统设计竞赛 北部赛区 三等奖</p>
+                    </div>
+                </div>
+                <div class="certificates-carousel">
+                    <div class="photo-carousel">
+                        <!-- 轮播图将通过JavaScript动态添加 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目经历 -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <h2>项目经历</h2>
+            <div class="projects-list">
+                <div class="project-item">
+                    <h3>基于STM32的智能鱼缸设计</h3>
+                    <span class="project-period">2022.02 - 2023.06</span>
+                    <ul class="project-details">
+                        <li><strong>开发工具：</strong>Keil uVision4、Proteus8、Altium Designer 18</li>
+                        <li><strong>硬件环境：</strong>STM32L476RG、DS18B20温度模块、YL-69湿度传感器、OLED显示模块</li>
+                        <li><strong>项目描述：</strong>设计支持自动/手动/设置模式的智能控制系统，实现水位/温度监控、自动补水/加热功能，OLED实时状态显示</li>
+                        <li><strong>职责：</strong>开发环境搭建、硬件功能代码编写、系统集成测试</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <h3>驱光寻迹小车</h3>
+                    <span class="project-period">2023.09 - 至今</span>
+                    <ul class="project-details">
+                        <li><strong>开发工具：</strong>Keil uVision5、Proteus8、Altium Designer 18</li>
+                        <li><strong>硬件环境：</strong>BF533芯片处理器、MT9V034摄像头、MEMS传感器</li>
+                        <li><strong>项目描述：</strong>实现自动平衡与信标寻迹功能，集成传感器模块、图像处理、PID控制算法、路径规划技术</li>
+                        <li><strong>职责：</strong>传感器功能代码开发、模块联调测试</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <h3>环境监测系统</h3>
+                    <span class="project-period">2024.09 - 2024.11</span>
+                    <ul class="project-details">
+                        <li><strong>开发工具：</strong>VS Code、PlatformIO IDE、嘉立创EDA</li>
+                        <li><strong>硬件环境：</strong>ESP07S主控芯片、SHT41/SGP41/WZ-H3-K传感器</li>
+                        <li><strong>项目描述：</strong>基于多传感器实时监测空气质量，通过Wi-Fi传输数据，OLED显示环境参数</li>
+                        <li><strong>职责：</strong>硬件选型、原理图设计、PCB焊接、传感器驱动开发、系统测试</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <h3>学生成绩管理系统</h3>
+                    <span class="project-period">2024.06 - 2024.08</span>
+                    <ul class="project-details">
+                        <li><strong>开发工具：</strong>IntelliJ IDEA、Navicat for MySQL</li>
+                        <li><strong>技术栈：</strong>JSP、Vue2、MySQL</li>
+                        <li><strong>项目描述：</strong>实现多角色权限管理（教师/学生/管理员），支持数据库增删改查及交互式前端开发</li>
+                        <li><strong>职责：</strong>数据库设计、前后端联调、功能验证</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <h3>失物招领系统</h3>
+                    <span class="project-period">2024.03 - 2024.06</span>
+                    <ul class="project-details">
+                        <li><strong>开发工具：</strong>HbuilderX</li>
+                        <li><strong>技术栈：</strong>Vue2 + Element UI</li>
+                        <li><strong>描述：</strong>使用Vue2中的ElementU、Uview
+                            UI等UI框架，进行系统的前端代码编写;实现用户注册登录、登陆校验、物品信息查看和提交以及用户个人信息的修改查看等操作</li>
+                        <li><strong>职责：</strong>代码编写、系统测试及系统文档编写等工作</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>&copy; 2024 李世杰. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+        }
+
+        .copyright {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        /* 首页布局样式 */
+        .profile-section {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .profile-info {
+            flex: 1;
+        }
+
+        .profile-photo {
+            width: 200px;
+            height: 250px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .id-photo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* 轮播图样式 */
+        .photo-carousel {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
+        }
+
+        .carousel-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .carousel-slide.active {
+            opacity: 1;
+        }
+
+        .photo-description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        /* 荣誉奖项区域样式 */
+        .awards-content {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+        }
+
+        .awards-list {
+            flex: 1;
+        }
+
+        .certificates-carousel {
+            flex: 1;
+            max-width: 600px;
+            min-width: 400px;
+        }
+
+        @media (max-width: 768px) {
+            .profile-section {
+                flex-direction: column;
+            }
+
+            .awards-content {
+                flex-direction: column;
+            }
+
+            .certificates-carousel {
+                max-width: 100%;
+                min-width: unset;
+            }
+
+            .photo-carousel {
+                height: 400px;
+            }
+        }
+    </style>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
